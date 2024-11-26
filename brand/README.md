@@ -17,7 +17,7 @@ check any outputs.
 
 ## Logo
 
-If you need to use the NHS-R Community logo (or wish to use another like NHS for
+If you need to use the NHS-R Community logo (or wish to use another NHS logo for
 any official outputs) you will need to remove the comment hashes from the 
 `_brand_yml` file and ensure that the logo file is saved wherever the `_brand.yml`
 file is.
@@ -39,12 +39,15 @@ format:
 
 ## Quarto
 
-If you are using a Quarto file `_quarto.yml` within a Quarto project (an example
-being the [NHS-R Community presentations](https://github.com/nhs-r-community/NHSR-presentations/blob/main/_quarto.yml) 
-which each refer to this file for shared attributes you will need to add the code:
+If you are using a Quarto file, to apply the branding:
+
+1) Place `_quarto.yml` within a Quarto project (an example
+being the [NHS-R Community presentations](https://github.com/nhs-r-community/NHSR-presentations/blob/main/_quarto.yml)). 
+
+2) Then refer to the `_brand.yml` file in the `_quarto.yml` file by adding the code:
 
 ```
 brand: _brand.yml
 ```
 
-to apply the branding.
+
