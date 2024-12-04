@@ -1,5 +1,12 @@
 # brand.yml
 
+> [!WARNING]  
+> This will only work from version 
+> [1.6 of Quarto](https://quarto.org/docs/blog/posts/2024-11-25-1.6-release/). 
+> See the 
+> [Statement on Tools](https://tools.nhsrcommunity.com/technical-quarto.html) 
+> on how to update your version of Quarto
+
 Following Posit's addition of a [`_brand.yml` file](https://posit-dev.github.io/brand-yml/) 
 to help with applying consistent branding across Quarto, Python or R we have set
 this up for NHS-R Community branding.
