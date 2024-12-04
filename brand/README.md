@@ -1,8 +1,19 @@
 # brand.yml
 
+> [!WARNING]  
+> This will only work from version 
+> [1.6 of Quarto](https://quarto.org/docs/blog/posts/2024-11-25-1.6-release/). 
+> See the 
+> [Statement on Tools](https://tools.nhsrcommunity.com/technical-quarto.html) 
+> on how to update your version of Quarto
+
 Following Posit's addition of a [`_brand.yml` file](https://posit-dev.github.io/brand-yml/) 
 to help with applying consistent branding across Quarto, Python or R we have set
-this up for NHS-R Community branding.
+this up for NHS-R Community branding. We have contributed to the [Inspiration 
+Gallery](https://posit-dev.github.io/brand-yml/inspiration/) along with other 
+examples of branding.
+
+## NHS-R Community > NHS England
 
 NHS-R Community uses NHS England colours for its slides and books.
 Details are in the [branding chapter](https://nhsrway.nhsrcommunity.com/style-guides.html#branding)
@@ -49,5 +60,4 @@ being the [NHS-R Community presentations](https://github.com/nhs-r-community/NHS
 ```
 brand: _brand.yml
 ```
-
 
